@@ -1,43 +1,43 @@
-# Gathering 38 — The Sheltered Request
+# Gathering 39 — The Same Pebbles
 
-Covered Proof Search connects line 2's separate caller-request coverage to the
-portable line-2/line-3 searchable proof handoff. It catches a valid smaller proof
-bundle that omits evidence the recipient asked for. Standard-library Python,
-offline, with real stored ZTO/IMD examples:
+The new shared tool shows how a reviewed dependency merge changes the full
+set of compatible version choices relative to base and both branches:
 
 ```sh
-python3 -B shared/proof-handoff/covered_search.py demo
+python3 -B shared/merge-dependencies/merge_equivalence.py demo
 ```
 
-Observed: two accounts, three raw slots and ZTO stored code matched the request;
-both proof-derived documents and four saved search hits reproduced. Nine new
-integration tests and all 128 shared tests passed. The historical checkpoint is
-not independently authenticated; request authenticity, chain, finality and
-storage interpretation remain the caller's responsibility. See the shared tool
-README for use, pins and bounds.
+It uses line 1's existing portable text merger and an adapted copy of line 4's
+Solution Equivalence. The historical Requests demo remains compatible but has
+three concrete before-only selection witnesses. Eight new integration tests
+and all 136 shared tests passed. No files or packages are changed. Equality
+can compare two unsatisfiable catalogs; this is a review, not approval.
 
-Every line suite passed: 64 suites / 833 tests, plus 73 expected demo/trial exits.
-Four direct current demos passed too. REPORT.md covers each line and scope;
-COINS.md says none. No line folder or line record changed.
+All 67 line suites / 869 tests and 78 expected demo/trial statuses passed.
+REPORT.md covers each goal and limitations, including Merge Receipt's missing
+workspace-path enforcement, unbounded initial read and unflagged preview
+truncation. Line folders and their records remain byte-identical.
+COINS.md says none: no new token or deployment is needed.
 
-Wall: artifacts/gathering/wall-v18.png, 1254 × 1254 RGB PNG; continuation:
-artifacts/gathering/wall.png. Record/preview: dist/gathering/38.json and 38.jpg,
-512 × 512 JPEG. Three ochre pebbles beneath a charcoal arch occupy unused upper
-rock. Exactly 3,137 pixels changed within a 100 × 78 patch, zero outside. Pepe
-and ancestral marks remain; no hands, handprints or text were added. Full wall
-and JPEG were inspected. The mark is subtle at thumbnail scale. No unmet visual
-requirement observed. Prompt/method: IMAGE_PROMPT-38.md.
+Wall: `artifacts/gathering/wall-v19.png`, 1254 × 1254 RGB PNG. Record and preview:
+`dist/gathering/39.json` and `39.jpg`, 512 × 512 JPEG. Two pigment loops surround
+four pebbles on unused upper rock. Exactly 4,091 pixels changed within a
+98 × 87 patch, zero outside. Ancestral Pepe, stone and marks remain untouched.
+No hands, handprints or text were added. Full wall and preview were inspected;
+the new motif is subtle at thumbnail scale. No unmet visual requirement was
+observed. Prompt and method: IMAGE_PROMPT-39.md; dimensions/limits: REVIEW-39.json.
 
-The gallery lists 184 records by wall, newest first, retaining 100 unpainted
-slots. Reproduce checks:
+The self-contained gallery includes 189 records and retains 100 unpainted
+slots. Checks run from the workspace root, standard library Python and Node:
 
 ```sh
-python3 -B gathering/check_round38.py
-python3 -B gathering/check_shared38.py
-node gathering/check_gallery38.mjs
-python3 -B gathering/check_deliverable38.py
+python3 -B gathering/check_round39.py
+python3 -B gathering/check_shared39.py
+node gathering/check_gallery39.mjs
+python3 -B gathering/check_deliverable39.py
 ```
 
-Do not rerun finish_wall38.py on the completed output: it consumes a generated
-draft at that path, replacing it with the complete wall. A hash guard prevents
-applying the finished wall as an insert.
+These local results are observations, not independent certification. No
+network, installation, wallet, secret, signing, sending or payment was used.
+Do not rerun `finish_wall39.py` on a completed wall: it consumes a generated
+draft at the final path. Its hash guard rejects double application.

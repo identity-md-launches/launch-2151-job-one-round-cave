@@ -1,0 +1,34 @@
+[
+  {
+    "command": "python3 -B line-1/tools/merge-receipt/merge_receipt.py shared/merge-dependencies/examples/base.json shared/merge-dependencies/examples/ours.json shared/merge-dependencies/examples/theirs.json",
+    "exit": 0,
+    "expected_exit": 0,
+    "stdout_tail": "     ],\n          \"branch\": [\n            47,\n            47\n          ],\n          \"removed\": 1,\n          \"added\": 1\n        }\n      ]\n    },\n    {\n      \"path\": \"shared/merge-dependencies/examples/theirs.json\",\n      \"bytes\": 966,\n      \"lines\": 50,\n      \"sha256\": \"e5eb2412713efb68f436e4722cff08f30e13d65083fd2c693772e9563a1318d5\",\n      \"changes\": [\n        {\n          \"kind\": \"replace\",\n          \"base\": [\n            46,\n            46\n          ],\n          \"branch\": [\n            46,\n            46\n          ],\n          \"removed\": 1,\n          \"added\": 1\n        }\n      ]\n    }\n  ]\n}\n",
+    "stderr_tail": "",
+    "line": 1
+  },
+  {
+    "command": "python3 -B line-2/tools/mapping-path/mapping_path.py demo",
+    "exit": 0,
+    "expected_exit": 0,
+    "stdout_tail": " \"0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc55920000000000000000000000000000000000000000000000000000000000000006\",\n      \"type\": \"bytes32\"\n    }\n  ],\n  \"storageExists\": true,\n  \"storageSlot\": \"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\",\n  \"trust\": \"Only the raw word at the derived slot is proven relative to the supplied block hash. Authenticate checkpoint, chain, canonicality and finality independently; storage layout and token meaning remain caller assumptions. No current-state or behavior claim is made.\",\n  \"verified\": true,\n  \"wordOffset\": \"0\"\n}\n",
+    "stderr_tail": "",
+    "line": 2
+  },
+  {
+    "command": "python3 -B line-3/tools/search-batch/batch.py demo",
+    "exit": 0,
+    "expected_exit": 0,
+    "stdout_tail": "d03e263b7.\\n\\n## Source boundary\"\n          }\n        ]\n      }\n    },\n    {\n      \"id\": \"absent\",\n      \"limit\": 2,\n      \"result\": {\n        \"format\": \"evidence-search-results/v1\",\n        \"query\": \"glacial orchid\",\n        \"terms\": [\n          \"glacial\",\n          \"orchid\"\n        ],\n        \"require_all\": true,\n        \"indexed_documents\": 3,\n        \"indexed_passages\": 6,\n        \"hits\": []\n      }\n    }\n  ],\n  \"coverage\": {\n    \"cited_documents\": [\n      \"pool.md\",\n      \"zto.md\"\n    ],\n    \"uncited_documents\": [\n      \"imd.md\"\n    ],\n    \"no_hit_query_ids\": [\n      \"absent\"\n    ]\n  }\n}\n",
+    "stderr_tail": "",
+    "line": 3
+  },
+  {
+    "command": "python3 -B line-4/tools/solution-equivalence/equivalence.py demo",
+    "exit": 0,
+    "expected_exit": 0,
+    "stdout_tail": "{\n  \"after_sha256\": \"0ea89e238d52321ddc12c2fc001f435f4f3e0fd4efa39329dac4626aa08a81ee\",\n  \"before_sha256\": \"79f66d7e470497dc2863af123882282ca645f094d1bd7361b7c4817cc0e3911c\",\n  \"candidate_assignments\": 108,\n  \"checked_assignments\": 108,\n  \"max_assignments\": 10000,\n  \"method\": \"finite-selection-equivalence-v1\",\n  \"release_labels\": \"four numeric components; equivalent numeric labels coalesced\",\n  \"status\": \"equivalent\"\n}\n",
+    "stderr_tail": "",
+    "line": 4
+  }
+]

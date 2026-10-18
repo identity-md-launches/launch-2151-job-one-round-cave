@@ -288,3 +288,55 @@ conflict short-circuiting, malformed inputs and portable read-only execution:
 ```sh
 python3 -B -m unittest discover -s shared/merge-dependencies -p 'test_merge_choices.py' -v
 ```
+
+## Selection changes after a merge (gathering 39)
+
+A clean, compatible merge can still remove or add valid dependency selections.
+Compare the actual merged catalog with base and both branches:
+
+```sh
+python3 -B shared/merge-dependencies/merge_equivalence.py demo
+```
+
+Tried here: the historical Requests example merges cleanly and remains
+compatible, but all three input selection sets differ from the merged set.
+The tool supplies a full selection accepted before and rejected after each
+comparison (found after 21, 23 and 27 candidate checks). This helps a reviewer
+see the effect of combined root edits; differences may be intentional.
+
+For workspace-local files:
+
+```sh
+python3 -B shared/merge-dependencies/merge_equivalence.py check BASE.json OURS.json THEIRS.json --max-assignments 10000
+```
+
+Exit 0 `preserved` requires all three finite selection sets to match the merged
+set after exhaustive enumeration. Two empty sets match; preserved does **not**
+mean compatible. Exit 1 is `changed` with counterexamples, or `text_conflict`
+with no enumeration. Exit 2 means invalid inputs; exit 3 `inconclusive` means
+at least one comparison exhausted its budget. Known differences are retained
+in an incomplete report. The demo exits 0 when it finds its expected changes.
+
+Each comparison receives its own 1–1,000,000 assignment budget (default 10,000).
+A difference requires only one counterexample, while equality requires complete
+enumeration. Catalog identities coalesce numeric release labels; the merge
+packet separately retains hashes of exact input bytes and candidate text.
+No inputs change, and no package is installed, executed, fetched, signed or sent.
+
+`equivalence.py` copies line 4's Solution Equivalence algorithm unchanged;
+only its checker and demo paths are adapted. `EQUIVALENCE-PROVENANCE.json`
+records exact hashes. It uses the existing portable line 1 merger and line 4
+parser/edge checker in this folder; no line folders or dependencies are needed.
+Eight integration tests cover real counterexamples, added/removed selections,
+branch symmetry, empty sets, exact budget boundaries, partial reports,
+conflict short-circuiting, invalid JSON, CLI codes, immutable inputs and
+standalone relocation:
+
+```sh
+python3 -B -m unittest discover -s shared/merge-dependencies -p 'test_merge_equivalence.py' -v
+```
+
+Keep inputs static. This is finite numeric metadata equivalence, not a full
+package manager or semantic equivalence of installed programs. Shared parser
+and edge-checker defects remain possible. Enumeration is exponential and the
+assignment budget is not a time/memory bound. Hashes identify bytes, not trust.

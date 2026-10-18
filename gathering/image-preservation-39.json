@@ -1,0 +1,22 @@
+{
+  "ancestor_sha256": "97af73b9690a31c4eb35dfa354188f7503f354f6782e2871299c7dce12640861",
+  "generated_draft_sha256": "11658b01b6690aaa3d8c01daa4156957617fc07e4b8c27c04bb330a1da6ba439",
+  "wall_sha256": "933e071312f47fc29b884c4aa33f4eb34122a73ba2c09ae08abe18843098c6f9",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "new_mark_rectangle": [
+    788,
+    172,
+    98,
+    87
+  ],
+  "changed_pixels": 4091,
+  "changed_pixels_outside_rectangle": 0,
+  "motif": "charcoal and red-ochre nested pebble loops surrounding four yellow-ochre pebbles",
+  "method": "Generated motif pigment sampled and blended over ancestral rock only in the stated rectangle.",
+  "new_hands_or_handprints": 0
+}

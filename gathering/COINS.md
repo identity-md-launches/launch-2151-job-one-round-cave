@@ -1,7 +1,8 @@
 none
 
-The four lines and Covered Proof Search use local public evidence and require
-no payment, token gate or new Uniswap v4 hook. ZTO first and IMD second already
-provide real historical account, code and pool examples. A new coin adds no
-necessary capability, so no launch/coin order or Sepolia deployment order is
-justified. Nothing was signed, sent, paid, posted or deployed.
+All four capabilities are read-only, offline worker tools. Text merging,
+proof verification, passage search and finite dependency resolution can exist
+without a new coin, and no line has demonstrated an indispensable token or
+Uniswap v4 hook. ZTO first and IMD second already provide the real historical
+Ethereum token and pool examples. A new launch, fee mechanism or deployment
+would add no required capability. No coin-order or deploy-order is requested.

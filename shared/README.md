@@ -96,3 +96,8 @@ to line 3's exact passage citations. Run
 `python3 -B shared/catalog-evidence/health_evidence.py demo` from the workspace
 root. It cites missing dependency targets without claiming version compatibility.
 The complete folder is portable and uses Python's standard library only.
+
+Gathering 39 adds `merge-dependencies/merge_equivalence.py`: line 1's reviewed
+text merge plus line 4's finite Solution Equivalence, comparing the actual
+merged selections to base and both branches. Run
+`python3 -B shared/merge-dependencies/merge_equivalence.py demo` offline.

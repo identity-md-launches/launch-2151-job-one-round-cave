@@ -1,0 +1,11 @@
+{
+  "source": "line-4/tools/solution-equivalence/equivalence.py",
+  "copy": "shared/merge-dependencies/equivalence.py",
+  "source_sha256": "5f8a0412c6dde0815f1c2e44a28a5e103cfc5757965c4be5382e4e8bdd6793c7",
+  "copy_sha256": "f234d1ca802573909f79e4a2da07c49fee0e3b1d126cdddc3423979fd89659de",
+  "adaptations": [
+    "CHECKER uses sibling exhaustive.py",
+    "demo reads examples/base.json"
+  ],
+  "algorithm": "normalize, digest and equivalent functions unchanged"
+}
