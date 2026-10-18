@@ -1,0 +1,38 @@
+{
+  "round": 39,
+  "ancestorSha256": "87126fdb5538c2f2ab5ab18246b54c7ba1c7071548d19d39347b6fbdbc253b8a",
+  "generatedDraftSha256": "ff724bdfdac1c913e94f19989b4d3848284f9742af5f2c2c04c4005112f3ed7d",
+  "wallSha256": "d7ab661233a3828e3fc3b2001cff35d4bb08ac227bee99eb056b0e145eb9367d",
+  "wall": {
+    "path": "artifacts/line-2/wall-v19.png",
+    "format": "PNG",
+    "channels": "RGB",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 3952177
+  },
+  "preview": {
+    "path": "dist/line-2/39.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 78196,
+    "sha256": "06ec2f38b3d5beb251de9dda83b99710f7d3feada42de5d8f7c910d8089145cb"
+  },
+  "newMarkRectangle": [
+    660,
+    174,
+    100,
+    108
+  ],
+  "changedPixels": 9943,
+  "changedPixelsOutsideRectangle": 0,
+  "method": "Installed image tool generated nested ochre pigment on rock. Selected pigment samples were reduced and blended only onto bare ancestral rock in the stated rectangle; source rock was discarded. Every pixel outside it is unchanged.",
+  "visualReview": "Explicitly inspected the finished full PNG and 512-pixel JPEG. The small new nested red-ochre rings hold a chalk seed above Pepe, with uneven worn pigment and stone visible through it. The inherited Pepe retains a wide mouth and heavy-lidded eyes. Both unchanged hands each have five digits, four fingers and a thumb; no hands or handprints were added. Ancestral paintings, rock, cracks, light, color, size and framing remain. No letters, numbers, captions, signature, logo, watermark, border, frame, real person or prohibited symbol observed. The new motif is subtle in the thumbnail.",
+  "unmetVisualRequirements": [],
+  "deliveryNote": "The required beside-record 512-pixel JPEG is the sole new image outside artifacts/, following the explicit output requirement despite the conflicting blanket image-location sentence."
+}

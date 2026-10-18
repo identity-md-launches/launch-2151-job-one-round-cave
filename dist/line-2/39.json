@@ -1,0 +1,30 @@
+{
+  "name": "The Nested Seed",
+  "image": "https://api.imd.fun/artifacts/d7ab661233a3828e3fc3b2001cff35d4bb08ac227bee99eb056b0e145eb9367d",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 39
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Mapping Path"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Nested ochre rings lead to a pale seed whose place can be proven."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Verify Ethereum account and storage proofs against trusted state roots"
+    }
+  ]
+}

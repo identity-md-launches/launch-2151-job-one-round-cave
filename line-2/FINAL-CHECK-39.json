@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "wall": "artifacts/line-2/wall-v19.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "sha256": "d7ab661233a3828e3fc3b2001cff35d4bb08ac227bee99eb056b0e145eb9367d",
+  "recordNumber": 39,
+  "previewDimensions": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "changedPixels": 9943,
+  "changedPixelsOutsideRectangle": 0,
+  "goalByteIdentical": true,
+  "olderRecordsUnchanged": true,
+  "pathsWithinScope": true,
+  "unmetVisualRequirements": [],
+  "meaning": "Local structural checks and explicit visual inspection; not independent certification."
+}

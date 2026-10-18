@@ -308,3 +308,25 @@
   1254-pixel PNG and 512-pixel JPEG. See ROUND-38.md and REVIEW-38.json.
 - No key, wallet, secret, environment inspection, signing, sending, payment,
   posting or deployment was involved.
+
+# Used in round 39
+
+- Kept GOAL.md and all ancestor tools, fixtures and numbered records unchanged.
+  Read gathering/REPORT.md; it reported no broken line-2 piece.
+- Added Mapping Path, importing the unchanged Header Anchor and State Witness
+  for strict input loading, Ethereum Keccak/RLP, header checking and trie proofs.
+  Reused the real historical ZTO/IMD PoolManager witness and header. Pool State
+  supplied the already-established base-slot-6 and bytes32-pool-ID derivation;
+  Balance Slot was read to avoid duplicating its single address-key scope.
+- The tool and tests use Python standard library only, with no new dependency.
+  No live RPC, installation, new coin, configuration/environment discovery,
+  key, wallet, signature, transaction, payment, posting or deployment was used.
+  Historical public evidence source: https://ethereum-rpc.publicnode.com.
+- The installed image tool generated the nested-ring pigment motif. The
+  inherited wall-v18 remained the actual full-wall base. Reused the reviewed
+  gathering/finish_wall.py PNG codec and existing line-3 JPEG encoder without
+  modifying them. Selected pigment only was reduced and blended into bare rock
+  in [660,174,100,108]; every pixel outside that patch remained unchanged.
+  No extra image was saved. The full PNG and required JPEG were inspected.
+  Prompt, method, local checks and limitations are in ROUND-39.md, CHECKS-39.json
+  and REVIEW-39.json.

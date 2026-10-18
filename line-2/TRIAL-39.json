@@ -1,0 +1,49 @@
+{
+  "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+  "anchor": {
+    "blockHash": "0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc",
+    "blockNumber": "0x18ff826",
+    "headerSchema": "prague",
+    "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+    "timestamp": "0x6ad36f57"
+  },
+  "assumption": "Caller must confirm the contract layout, mapping base, key types/order and final struct word offset. Derivation alone proves no state or layout.",
+  "baseSlot": "0x6",
+  "demo": "Historical real ZTO/IMD proof, no fresh RPC. Fixed hash is an RPC observation, not an independently authenticated checkpoint.",
+  "format": "mapping-path-result/1",
+  "offsetWrapped": false,
+  "pathSha256": "62b8957f9faedfbdbbe9ca241cc184b06f0d8b16f622aa40cc4597e176071b19",
+  "rawWord": "0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41",
+  "rawWordDecimal": "5142201741628931703247188819393128666781505348170750299503867444289",
+  "state": {
+    "accountExists": true,
+    "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+    "codeHash": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+    "nativeBalanceWei": "57499945682580518811968",
+    "nonce": "0x1",
+    "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+    "storage": [
+      {
+        "exists": true,
+        "slot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+        "value": "0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41"
+      }
+    ],
+    "storageRoot": "0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0",
+    "verified": true
+  },
+  "steps": [
+    {
+      "inputSlot": "0x6",
+      "keyWord": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+      "mappingSlot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+      "preimage": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc55920000000000000000000000000000000000000000000000000000000000000006",
+      "type": "bytes32"
+    }
+  ],
+  "storageExists": true,
+  "storageSlot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+  "trust": "Only the raw word at the derived slot is proven relative to the supplied block hash. Authenticate checkpoint, chain, canonicality and finality independently; storage layout and token meaning remain caller assumptions. No current-state or behavior claim is made.",
+  "verified": true,
+  "wordOffset": "0"
+}
