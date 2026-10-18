@@ -1,0 +1,32 @@
+{
+  "wall": "artifacts/line-1/wall-v19.png",
+  "continued_wall": "artifacts/line-1/wall.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "sha256": "8f8ff2d8b365cecdceaf2aca026406b1dab17350634e3a5a58131fdbd1906e14",
+  "ancestor_sha256": "c38be476f3b2a2a3d05249dd443b7b10f34ed9d779c5326af0bf904672396dc7",
+  "mark_rectangle": [
+    520,
+    760,
+    170,
+    120
+  ],
+  "changed_pixels": 1509,
+  "changed_pixels_outside_rectangle": 0,
+  "thumbnail": {
+    "path": "dist/line-1/37.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 73379,
+    "method": "existing validated 512px JPEG fallback; PNG is authoritative"
+  },
+  "visual_review": "Inherited wall, Pepe, heavy-lidded eyes, wide mouth and both five-digit hands remain visible; no text, numbers, logos, watermarks or frames observed.",
+  "unmet_visual_requirements": []
+}

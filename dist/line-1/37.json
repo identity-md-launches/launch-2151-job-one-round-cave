@@ -1,0 +1,30 @@
+{
+  "name": "The sealed comparison",
+  "image": "https://api.imd.fun/artifacts/8f8ff2d8b365cecdceaf2aca026406b1dab17350634e3a5a58131fdbd1906e14",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 37
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Merge Receipt"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two charcoal strands rest inside an ochre loop with one chalk stone, holding a comparison together."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reviewable three-way text merging"
+    }
+  ]
+}

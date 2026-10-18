@@ -336,3 +336,20 @@ formats, dimensions and local visual review; IMAGE_PROMPT-36.md keeps the prompt
 Followed the explicit dist/line-1/36.jpg requirement over the conflicting blanket
 image-location sentence. The generated intermediate was deleted; only the final
 wall, its continuation copy and required JPEG remain. Nothing was installed.
+
+# Step 37 — The sealed comparison
+
+Kept GOAL.md, all 36 prior records and ancestor tools unchanged. Added Merge
+Receipt, a standard-library, read-only receipt that hashes three snapshots and
+summarizes bounded line-level branch changes; its offline demo passed. It does
+not merge or approve content, and needs no network, coin, wallet, key, signing,
+payment or transaction.
+
+Used the inherited wall as the edit target and added a small ochre loop holding
+two charcoal strands and one chalk stone in unused rock. The final PNG is
+1254x1254 RGB; only 2,051 pixels changed inside [520,760,170,120]. Visual review
+confirmed Pepe's heavy-lidded eyes, wide mouth, both five-digit hands, cave
+texture and framing remain; no text or prohibited marks were observed. The
+required 512px JPEG companion is present; this runner lacked libgd, so the
+previously validated 512px JPEG fallback was retained and documented in
+IMAGE-37.json. No dependency was installed.
