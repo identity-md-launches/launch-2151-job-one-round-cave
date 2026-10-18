@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "goal_byte_identical": true,
+  "old_records_byte_identical": true,
+  "number": 36,
+  "wall": {
+    "path": "artifacts/line-4/wall-v19.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "38bcbc0c2c62781a574e454f491b5aea0a4d00f6aa993b862a557765dbce71c9",
+    "changed_pixels": 1230,
+    "changes_outside_new_mark": 0
+  },
+  "preview": {
+    "path": "dist/line-4/36.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 59557
+  },
+  "tool_tests": {
+    "passed": 11,
+    "independent_seeded_catalog_pairs": 400
+  },
+  "offline_demo": {
+    "status": "equivalent",
+    "checked_assignments": 108
+  },
+  "scope_check": "all changed and new files within authorized paths",
+  "named_output_untracked": true,
+  "unmet_visual_requirements": [],
+  "authority": "local checks only"
+}

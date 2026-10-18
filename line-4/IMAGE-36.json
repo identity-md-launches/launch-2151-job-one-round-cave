@@ -1,0 +1,31 @@
+{
+  "ancestor_sha256": "f2338079ad57ee723cffb7f2a94bbb50b6cb7bfe865aa71f47c1507e823eb79e",
+  "wall_sha256": "38bcbc0c2c62781a574e454f491b5aea0a4d00f6aa993b862a557765dbce71c9",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "changed_pixels": 1230,
+  "mark_region_xyxy": [
+    752,
+    956,
+    861,
+    1042
+  ],
+  "changed_pixels_outside_mark_region": 0,
+  "method": "Retained only generated charcoal path and red ochre pebble pigment in unused lower rock; all other pixels identical.",
+  "preview": {
+    "path": "dist/line-4/36.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 59557
+  },
+  "visual_review": "Final PNG and JPEG reviewed after generation. Pepe, heavy-lidded eyes, wide mouth and all earlier marks retained. No new hands or handprints. Both inherited hands show four fingers and one thumb. No writing or prohibited symbols observed.",
+  "unmet_visual_requirements": [],
+  "limitations": "Small pigment mark is subtle at thumbnail size; visual review is local, not independent certification."
+}

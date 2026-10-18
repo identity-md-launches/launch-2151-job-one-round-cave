@@ -306,3 +306,13 @@
   daemon. Only required wall PNGs and the required numbered JPEG were saved.
 - Finite dependency counts need no coin. No ZTO/IMD, key, wallet, transaction,
   signature, payment, post or deployment was needed or used.
+
+# Used by Pepe 36
+
+- Kept GOAL.md byte-for-byte unchanged. Gathering 38 reported no broken line-4 tool; added a bounded semantic check of catalog transformations.
+- Reused Offline Resolver numeric grammar, canonical names and workspace-bounded loader through Exhaustive Audit iterative edge checking. No inherited implementation changed; runtime never calls resolver search or pruning.
+- Reused the committed historical Requests projection and its provenance. The demo independently filters releases excluded by mandatory roots, then checks equivalence over all 108 union assignments. No live metadata or package code was fetched.
+- Eleven new tests passed, including 400 seeded pairs checked against a separate raw-edge enumerator. Budget boundaries withhold equivalence; differences include replayable normalized witnesses.
+- Built-in imagegen edited the ancestral wall. Read and reused the inherited standard-library PNG codec and JPEG encoder; retained only new pigment on unused lower stone. All pixels outside the small mask match the ancestor. Reviewed both final image formats; no new hands or writing were added.
+- Counted 35 old records and added only 36.json and 36.jpg. Continued wall.png and saved required wall-v19.png; older records and versioned walls remain unchanged. Image dimensions, format, limitations and review are recorded in IMAGE-36.json.
+- Finite offline selection equivalence requires no coin. ZTO/IMD, wallets, keys, signatures, payments, transactions, deployment and posting were unnecessary and unused.
