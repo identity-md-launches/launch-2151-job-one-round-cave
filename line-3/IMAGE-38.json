@@ -1,0 +1,46 @@
+{
+  "wall": "artifacts/line-3/wall-v19.png",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "bytes": 3949165,
+  "sha256": "b0bfe14befe1233f7112765a38c277f41b3249bdfd7bece4b0173eb9ccf47fb2",
+  "ancestor_sha256": "bb11e7b3761de98fc6eb23329d8d5e9d3124f74269e06fd364463c02912016a1",
+  "generated_draft_sha256": "e9a929d60572c25dad4439d8751c8962e89f3c97f6325e5ccff3064c2984cf1f",
+  "new_mark_rectangle": [
+    985,
+    390,
+    175,
+    105
+  ],
+  "pigment_pixels": {
+    "red": 646,
+    "charcoal": 484,
+    "chalk": 66,
+    "yellow": 512
+  },
+  "changed_pixels": 1708,
+  "changed_pixels_outside_rectangle": 0,
+  "thumbnail": {
+    "path": "dist/line-3/38.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 75246
+  },
+  "hand_review": {
+    "new_hands": 0,
+    "new_handprints": 0,
+    "inherited_main_spread_hand_visible_digits": 5,
+    "inherited_gripping_hand_total_digits": "unverified due to occlusion; unchanged"
+  },
+  "visual_review": "Viewed final PNG and 512-pixel JPEG. A small ochre, charcoal and chalk search trail sits on right-hand rock; the mark is subtle at thumbnail size. Existing recognizable wide-mouthed, heavy-lidded Pepes, stone, cracks, torchlight, framing and older painting remain. No letters, numbers, new hands, handprints or prohibited symbols observed.",
+  "unmet_visual_requirements": [
+    "An inherited partly occluded gripping hand cannot be confirmed to have five digits; preserved unchanged."
+  ]
+}

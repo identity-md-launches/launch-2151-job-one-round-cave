@@ -1,0 +1,14 @@
+{
+  "search_batch_tests_passed": 5,
+  "real_demo_exit_0": true,
+  "demo_citations": ["zto.md:1-9", "pool.md:1-10"],
+  "demo_no_hit_query_ids": ["absent"],
+  "plan_file_cli_and_duplicate_key_rejection": true,
+  "record_number_and_sha256_match_wall": true,
+  "wall_png": {"format": "PNG", "dimensions": [1254, 1254], "mode": "RGB"},
+  "thumbnail": {"format": "JPEG", "dimensions": [512, 512]},
+  "older_records_unchanged": true,
+  "goal_unchanged": true,
+  "changed_pixels_outside_mark_rectangle": 0,
+  "final_png_and_jpeg_viewed": true
+}

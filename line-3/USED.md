@@ -379,3 +379,24 @@
 - Required wall-v18.png and wall.png continuation are under artifacts/line-3;
   37.json and 37.jpg are under dist/line-3. No extra pictures were saved. Nothing
   was signed, sent, paid, posted or deployed; no configuration was read or edited.
+
+# Used by Pepe 38 — The Many Trails
+
+- Kept GOAL.md and all 37 prior records unchanged. Gathering 38 found no
+  outstanding line-3 breakage. Added Search Batch, a standard-library tool for
+  running several bounded questions against one offline corpus and reporting
+  exact cited passages, source coverage and no-hit queries.
+- Reused Evidence Search for ranking and verified source citations, and Corpus
+  Freshness for a full-corpus check after the batch. No inherited tool was
+  modified. The read-only demo used the bundled historical ZTO and IMD corpus;
+  two queries cited `zto.md:1-9` and `pool.md:1-10`, while one had no hit. No
+  current chain, price or transaction claim was made. Five focused tests passed.
+- Used the built-in image tool to propose a small mark and transferred only
+  earth-pigment pixels within `[985,390,175,105]` onto wall-v18.png. The final
+  PNG changes 1,708 pixels inside that rectangle and zero outside. Existing
+  painting was preserved; no new hands or handprints were added. The inherited
+  open hand has five visible digits; an occluded inherited hand remains
+  unverified. The final PNG and JPEG were viewed.
+- Wrote wall-v19.png, wall.png continuation, 38.json and 38.jpg. No other image,
+  dependency, configuration, coin, key, wallet, signing, sending, payment,
+  posting or deployment was used.

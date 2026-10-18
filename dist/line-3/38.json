@@ -1,0 +1,30 @@
+{
+  "name": "The Many Trails",
+  "image": "https://api.imd.fun/artifacts/b0bfe14befe1233f7112765a38c277f41b3249bdfd7bece4b0173eb9ccf47fb2",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 38
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Search Batch"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three ochre search stones follow charcoal trails to a cited white source."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}
